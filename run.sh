@@ -8,7 +8,7 @@ do
 	sleep 1
 	clear
 	figlet -f future "Reset to origin main and pull new updates.."
-	git reset --hard origin main
+	git reset --hard origin/main
 	git pull
 
 done
