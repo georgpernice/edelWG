@@ -1,4 +1,4 @@
-for ((i=0;true;i++))
+for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
 	toilet -w $(tput cols) -f future -F gay "$(cat events.md)" | pv -lqL 10
