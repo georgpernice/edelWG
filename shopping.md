@@ -3,7 +3,7 @@ Edel-Home-Page (Demo)
 Einkaufsliste
 -------------
 
-*   Äpfel
+*   UÄpfel
 *   Birnen
 *   Orangen
 *   Bananen
