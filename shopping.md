@@ -4,7 +4,7 @@ Einkaufsliste
 -------------
 
 * Pfand * (-1)
-* Bier
+* Kalk stopp tabs
 * Spülmaschinensalz
 * ...
 * //other VIP stuff 
