@@ -3,7 +3,6 @@ Edel-Home-Page (Demo)
 Einkaufsliste
 -------------
 
-*   UÄpfel
-*   Birnen
-*   Orangen
-*   Bananen
+* Pfand * (-1)
+* Bier
+* Spülmaschinensalz
