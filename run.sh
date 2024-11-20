@@ -7,7 +7,7 @@ do
 	toilet -w $(tput cols) -f future -F metal "$(cat shopping.md)" | pv -lqL 10
 	sleep 2
 	clear
-	figlet -f lean "Reset to origin main and pull new updates.."
+	figlet -f bubble "Reset to origin main and pull new updates.."
 	git reset --hard origin/main
 	git pull
 
