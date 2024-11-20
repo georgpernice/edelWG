@@ -18,7 +18,7 @@ white() { echo -e "${WHITE_B}${1}${RESET}"; }
 for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
-	green "$(toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10)"
+	green "$(toilet -w $(tput cols) -f bigmono9 $(cat events.md))"  | pv -lqL 10
 	sleep 3
 	clear
 	toilet -w $(tput cols) -f bigmono9 "$(cat shopping.md)" | pv -lqL 10
