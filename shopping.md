@@ -1,4 +1,4 @@
-Edel-Home-Page
+Edel-Home-Page (updated last: 21.11)
 =====================
 Einkaufsliste
 -------------
