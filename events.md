@@ -1,4 +1,4 @@
-Edel-Home-Page (Demo)
+Edel-Home-Page
 =====================
 Termine
 -------
