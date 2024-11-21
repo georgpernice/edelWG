@@ -22,7 +22,7 @@ do
 
   	# see if we update soon
   	odd=$((i % 2))
- 	if [$odd -eq 1]
+ 	if [ $odd -eq 1 ]
  	then
 	 	# update git repo
    		figlet -f big "Reset to origin main and pull new updates.."
