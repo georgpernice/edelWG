@@ -19,18 +19,19 @@ lastupdate=$(git show -s --date=format:'%d.%m.%Y' --format=%cd)
 for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
- 	
+ 	# page1
   	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
 	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
- 	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 4
 	clear
+ 	# page2
  	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
 	clear
 	figlet -f big "Reset to origin main and pull new updates.."
-	git reset --hard origin/main
+	# update git repo
+ 	git reset --hard origin/main
 	git pull
 	clear
 done
