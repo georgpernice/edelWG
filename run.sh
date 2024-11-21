@@ -21,7 +21,7 @@ do
 	trap exit SIGINT
 
   	# see if we update soon
-  	odd=$i%2
+  	odd=$((i % 2))
  	if [$odd]
  	then
 	 	# update git repo
