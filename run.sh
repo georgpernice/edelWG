@@ -19,6 +19,17 @@ lastupdate=$(git show -s --date=format:'%d.%m.%Y' --format=%cd)
 for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
+
+  	# see if we update soon
+  	odd=$i%2
+ 	if [$odd]
+ 	then
+	 	# update git repo
+   		figlet -f big "Reset to origin main and pull new updates.."
+	 	git reset --hard origin/main
+		git pull
+		clear
+  	fi
  	# page1
   	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
    	green "$(figlet -w $(tput cols) -f bigmono9  ========================================== )"
@@ -30,16 +41,6 @@ do
   	green "$(figlet -w $(tput cols) -f bigmono9  ========================================== )"
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
-	clear
-
- 	figlet -f bigmono9 "$((i % 2))" 
-	if [$(((i % 2) == 1))]
- 	then
-	 	# update git repo
-   		figlet -f big "Reset to origin main and pull new updates.."
-	 	git reset --hard origin/main
-		git pull
-		clear
-  	fi 
+	clear 
 done
 
