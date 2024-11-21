@@ -30,7 +30,7 @@ do
 	sleep 4
 	clear
 	figlet -f big "Reset to origin main and pull new updates.."
-	if [i % 2]==0
+	if [i % 2 -eq 0]
 	 	# update git repo
 	 	git reset --hard origin/main
 		git pull
