@@ -15,12 +15,12 @@ purple() { echo -e "${PURPLE_B}${1}${RESET}"; }
 cyan() { echo -e "${CYAN_B}${1}${RESET}"; }
 white() { echo -e "${WHITE_B}${1}${RESET}"; }
 
-lastupdate=$(git show --no-patch --format=%ci HEAD)
+lastupdate=$(git show -s --date=format:'%d.%m.%Y' --format=%cd)
 for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
  	
-  	green "$(figlet -w $(tput cols) -f bigmono9 Last updated on: $(lastupdate:0:10))"
+  	green "$(figlet -w $(tput cols) -f bigmono9 Last updated on: $(lastupdate))"
 	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 4
