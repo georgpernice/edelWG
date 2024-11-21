@@ -31,6 +31,9 @@ do
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
 	clear
+
+ 	figlet -f bigmono9 $((i % 2)) -eq 1 = 
+  	figlet -f "$($((i % 2)) -eq 1)"
 	if [$((i % 2)) -eq 1]
  	then
 	 	# update git repo
