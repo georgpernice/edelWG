@@ -20,7 +20,7 @@ do
 	trap exit SIGINT
  	lastupdate=$(git show --no-patch --format=%ci HEAD)
   	green "$(figlet -w $(tput cols) -f bigmono9 Last updated on: $lastupdate)"
-   	sleep 1
+   	sleep 2
     	clear
 	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
