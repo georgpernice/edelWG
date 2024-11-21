@@ -21,11 +21,13 @@ do
 	trap exit SIGINT
  	# page1
   	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
+   	green "$(figlet -w $(tput cols) -f bigmono9  ================= )"
 	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
 	sleep 4
 	clear
  	# page2
  	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
+  	green "$(figlet -w $(tput cols) -f bigmono9  ================= )"
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
 	clear
