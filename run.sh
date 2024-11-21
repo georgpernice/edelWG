@@ -32,8 +32,7 @@ do
 	sleep 4
 	clear
 
- 	figlet -f bigmono9 $((i % 2)) -eq 1 = 
-  	figlet -f "$($((i % 2)) -eq 1)"
+ 	figlet -f bigmono9 "$((i % 2))" 
 	if [$((i % 2)) -eq 1]
  	then
 	 	# update git repo
