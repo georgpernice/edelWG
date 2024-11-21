@@ -19,12 +19,12 @@ for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
  	red "$(test)"
-	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 10
+	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
-	sleep 3
+	sleep 4
 	clear
-	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 10
-	sleep 3
+	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
+	sleep 4
 	clear
 	figlet -f future "Reset to origin main and pull new updates.."
 	git reset --hard origin/main
