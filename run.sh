@@ -20,12 +20,12 @@ for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
  	
-  	green "$(figlet -w $(tput cols) -f bigmono9 Last updated on: $(lastupdate))"
+  	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
 	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")" | pv -lqL 20
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 4
 	clear
- 	green "$(figlet -w $(tput cols) -f bigmono9 Last updated on: $lastupdate)"
+ 	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
 	clear
