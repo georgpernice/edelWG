@@ -19,11 +19,11 @@ for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
  	red "$(test)"
-	green "$(figlet -w $(tput cols) -f big "$(cat events.md)")"
+	red "$(figlet -w $(tput cols) -f bigmono9 "$(cat events.md)")"
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 3
 	clear
-	toilet -w $(tput cols) -f bigmono9 "$(cat shopping.md)" | pv -lqL 10
+	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")"
 	sleep 3
 	clear
 	figlet -f future "Reset to origin main and pull new updates.."
