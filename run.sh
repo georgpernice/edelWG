@@ -29,7 +29,7 @@ do
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 4
 	clear
-	figlet -f future "Reset to origin main and pull new updates.."
+	figlet -f big "Reset to origin main and pull new updates.."
 	git reset --hard origin/main
 	git pull
 	clear
