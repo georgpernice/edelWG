@@ -2,6 +2,6 @@ Einkaufsliste
 -------------
 * Pfand * (-1)
 * Kalk stopp tabs
-* Spülmaschinensalz
+* Spuelmaschinensalz
 * ...
-* //other VIP stuff 
+edit @ https://github.com/georgpernice/edelWG :-)
