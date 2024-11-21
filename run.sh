@@ -19,7 +19,7 @@ for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
  	red "$(test)"
-	green "$(figlet -f big "$(cat events.md)")"
+	green "$(figlet -w $(tput cols) -f big "$(cat events.md)")"
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 3
 	clear
