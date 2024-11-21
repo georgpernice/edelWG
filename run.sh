@@ -31,6 +31,7 @@ do
 	clear
 	figlet -f big "Reset to origin main and pull new updates.."
 	if [i % 2 -eq 0]
+ 	then
 	 	# update git repo
 	 	git reset --hard origin/main
 		git pull
