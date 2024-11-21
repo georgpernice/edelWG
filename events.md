@@ -1,4 +1,3 @@
-Edel-Home-Page
 =====================
 Termine
 -------
