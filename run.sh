@@ -18,7 +18,7 @@ white() { echo -e "${WHITE_B}${1}${RESET}"; }
 for ((i=0;9==9;i++))
 do
 	trap exit SIGINT
- 	lastupdate=$(git show --no-patch --format=%ci)
+ 	lastupdate="$(git show --no-patch --format=%ci)"
   	green "$(figlet -w $(tput cols) -f bigmono9 "$(lastupdate)")" | pv -lq 20
    	sleep 1
     	clear
