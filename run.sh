@@ -33,7 +33,7 @@ do
 	clear
 
  	figlet -f bigmono9 "$((i % 2))" 
-	if [$((i % 2)) -eq 1]
+	if [$(((i % 2)) -eq 1)]
  	then
 	 	# update git repo
    		figlet -f big "Reset to origin main and pull new updates.."
