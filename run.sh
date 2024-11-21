@@ -23,7 +23,7 @@ do
  	#toilet -w $(tput cols) -f bigmono9 "$(cat events.md)" | pv -lqL 10
 	sleep 3
 	clear
-	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")"
+	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 10
 	sleep 3
 	clear
 	figlet -f future "Reset to origin main and pull new updates.."
