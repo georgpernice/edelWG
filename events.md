@@ -1,4 +1,3 @@
-=====================
 Termine
 -------
 Datum      | Uhrzeit | Geile Aktion
