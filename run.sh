@@ -42,5 +42,11 @@ do
 	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
 	sleep 6
 	clear 
+# page3
+ 	green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
+  	green "$(figlet -w $(tput cols) -f bigmono9  ========================================== )"
+	blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat msg.md)")" | pv -lqL 20
+	sleep 6
+	clear 
 done
 
