@@ -1,8 +1,7 @@
 Einkaufsliste 
 -------------
-* Pfand * (-1)
+* Pfand weg
 * Kalk stopp tabs
 * Spuelmaschinensalz
-* Kaffee (noch nicht ganz leer) 
 * ...
 
