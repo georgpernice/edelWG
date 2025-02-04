@@ -31,6 +31,7 @@ do
                 clear
                 lastupdate=$(git show -s --date=format:'%d.%m.%Y' --format=%cd)
         fi
+        tput civis # cursor hides
         # page1
         green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
         green "$(figlet -w $(tput cols) -f bigmono9  ========================================== )"
@@ -43,10 +44,11 @@ do
         blue "$(figlet -w $(tput cols) -f bigmono9 "$(cat shopping.md)")" | pv -lqL 20
         sleep 6
         clear
-# page3
+        # page3
         green "$(figlet -w $(tput cols) -f bigmono9 Edel-Homepage - Last updated on: $lastupdate)"
         green "$(figlet -w $(tput cols) -f bigmono9  ========================================== )"
         yellow "$(figlet -w $(tput cols) -f bigmono9 "$(cat msg.md)")" | pv -lqL 20
         sleep 6
         clear
+        tput cvvis # cursor shows
 done
