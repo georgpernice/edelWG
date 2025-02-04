@@ -1,4 +1,4 @@
 Messages
 -------------
 * edit -> https://github.com/georgpernice/edelWG
-* Thursday 19.12 Papertrash-Evening !! 
+*  13.02 Papertrash-Evening !! 
