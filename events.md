@@ -1,6 +1,6 @@
 Termine
 -------
 Datum      | Uhrzeit | Geile Aktion
-19.12.2024 | 20:00   | WG Interview !! 
-08.01.2025 | ??:??   | Back in the BRD!
+XX.02.2024 | XX:XX  | propose a plan! 
+2X.02.2025 | XX:XX   | Exit game? 
 
