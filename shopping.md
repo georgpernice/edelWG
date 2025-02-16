@@ -1,7 +1,7 @@
 Einkaufsliste 
 -------------
 * Schwaemme
-* Klarspühler
+* Klarspuehler
 * 
 * ...
 
