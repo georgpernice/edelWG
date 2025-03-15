@@ -1,5 +1,5 @@
-RED_B='\e[1;91m'
-GREEN_B='\e[1;92m'
+RED_B='\e[2;91m'
+GREEN_B='\e[2;92m'
 YELLOW_B='\e[1;93m'
 BLUE_B='\e[1;94m'
 PURPLE_B='\e[1;95m'
