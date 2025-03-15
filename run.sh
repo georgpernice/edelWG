@@ -1,3 +1,4 @@
+# for bright colors change first number to 1 like RED_B='\e[1;91m' 
 RED_B='\e[2;91m'
 GREEN_B='\e[2;92m'
 YELLOW_B='\e[2;93m'
