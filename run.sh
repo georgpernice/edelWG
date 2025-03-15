@@ -1,10 +1,10 @@
 RED_B='\e[2;91m'
 GREEN_B='\e[2;92m'
-YELLOW_B='\e[1;93m'
-BLUE_B='\e[1;94m'
-PURPLE_B='\e[1;95m'
-CYAN_B='\e[1;96m'
-WHITE_B='\e[1;97m'
+YELLOW_B='\e[2;93m'
+BLUE_B='\e[2;94m'
+PURPLE_B='\e[2;95m'
+CYAN_B='\e[2;96m'
+WHITE_B='\e[2;97m'
 RESET='\e[0m'
 
 red() { echo -e "${RED_B}${1}${RESET}"; }
