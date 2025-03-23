@@ -1,6 +1,6 @@
 Einkaufsliste 
 -------------
-* 
+* potatoe
 * 
 * 
 * ...
