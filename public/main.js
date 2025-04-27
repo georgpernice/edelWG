@@ -34,6 +34,6 @@ function scrollToLink( link ) {
     var top = selectLink.offset().top - CORRECTION;
     $('body,html').stop().animate({scrollTop: top}, DELAY_SCROLLING);
   } else {
-    colnsole.log('The link is not found: ' + link);
+    console.log('The link is not found: ' + link);
   }
 }
