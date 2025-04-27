@@ -12,15 +12,17 @@ body {
 #section-green,
 #section-blue,
 #section-red,
-#section-start,
+#section-start{
+  background: linear-gradient(grey, cyan); color: #cf9; padding: 10%;
+}
 #section-stop {
   height: 800px;
   padding: 10%;
 }
 
-#section-green { background: linear-gradient(red, white, blue); color: #cf9; padding: 10%;}
-#section-blue  { background: #69c; color: #9cf; padding: 10%;}
-#section-red   { background: #c69; color: #f9c; padding: 10%;}
+#section-green { background: linear-gradient(green, yellow); color: #cf9; padding: 10%;}
+#section-blue  { background: linear-gradient(blue, white); color: #9cf; padding: 10%;}
+#section-red   { background: linear-gradient(red, orange); padding: 10%;}
 
 table{
   color:green
