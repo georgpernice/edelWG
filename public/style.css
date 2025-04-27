@@ -45,7 +45,8 @@ body {
 
 table{
   font-family: Arial, Helvetica, sans-serif;
-
+  margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 25%;
   margin-right: 25%;
   border: solid 3px white;
