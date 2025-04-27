@@ -9,37 +9,35 @@ body {
   padding-top: 50px;
 }
 
-#section-green,
-#section-blue,
-#section-red,
-#section-start{
+
+#section-imgs{
   background: linear-gradient(black, green); color: #cf9; padding: 10%;
 }
-#section-stop {
+#section-contrib {
   height: 800px;
   padding: 10%;
 }
 
 
-#section-green { 
+#section-events { 
+  background: linear-gradient(to bottom, 
+  orange,
+  green ,
+  purple); 
+  color: #cf9; padding: 10%;
+}
+#section-expenses  { 
+  background: linear-gradient(to bottom, 
+  purple,
+  blue ,
+  orange); 
+  color: #cf9; padding: 10%;
+}
+#section-memes   { 
   background: linear-gradient(to bottom, 
   orange,
   red ,
   purple); 
-  color: #cf9; padding: 10%;
-}
-#section-blue  { 
-  background: linear-gradient(to bottom, 
-  orange  10%, 
-  red     30%, 
-  purple  90%px); 
-  color: #cf9; padding: 10%;
-}
-#section-red   { background: linear-gradient(to bottom, 
-  orange  10px, 
-  red     20px, 
-  purple  30px, 
-  yellow  0); 
   color: #cf9; padding: 10%;
 }
 
