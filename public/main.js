@@ -1,6 +1,6 @@
   let CORRECTION = 50;  // height of the navbar 
-  let DELAY_READING = 4000; // 4 seconds = 4000; 10 seconds = 10000
-  let DELAY_SCROLLING = 1500;
+  let DELAY_READING = 6000; // 4 seconds = 4000; 10 seconds = 10000
+  let DELAY_SCROLLING = 2000;
 
   let links = ['#section-imgs', '#section-events', '#section-expenses', '#section-memes', '#section-contrib'];
   let timerId = 0;
