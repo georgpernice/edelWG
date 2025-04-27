@@ -42,6 +42,19 @@ body {
 }
 
 table{
-  color:white;
   font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  padding: 25%;
+  border: solid 3px white;
+}
+th{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white
+}
+td{
+  padding:5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: lightblue
 }
