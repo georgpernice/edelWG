@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.listen(PORT, () => console.log(`Server listening on port: 127.0.0.1:${PORT} \n Open beta at localhost:${PORT}/feste.xn--gzh-ioa.de/index.html`));
+app.listen(PORT, () => console.log(`Server listening on port: 127.0.0.1:${PORT} \n Open at localhost:${PORT}/index.html`));
