@@ -1,4 +1,4 @@
-.body{
-    color-scheme: blue
-    color-mix(in hsl shorter hue, color percentage, color percentage);
+body{
+    color: blue
+    
 }
