@@ -18,7 +18,7 @@ body {
   padding: 10%;
 }
 
-#section-green { background: linear-gradient(red, blue); color: #cf9; padding: 10%;}
+#section-green { background: linear-gradient(red, white, blue); color: #cf9; padding: 10%;}
 #section-blue  { background: #69c; color: #9cf; padding: 10%;}
 #section-red   { background: #c69; color: #f9c; padding: 10%;}
 
