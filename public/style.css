@@ -1,5 +1,23 @@
-body{
+/* body{
     background-color: cadetblue;
     color: blue
     
+} */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+
+body {
+  padding-top: 50px;
 }
+
+#section-green,
+#section-blue,
+#section-red,
+#section-start,
+#section-stop {
+  height: 800px;
+  padding: 10px 20px;
+}
+
+#section-green { background: #9c6; color: #cf9; }
+#section-blue  { background: #69c; color: #9cf; }
+#section-red   { background: #c69; color: #f9c; }
