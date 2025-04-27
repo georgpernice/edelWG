@@ -20,9 +20,28 @@ body {
   padding: 10%;
 }
 
-#section-green { background: linear-gradient(green, black); color: #cf9; padding: 10%;}
-#section-blue  { background: linear-gradient(black, cyan); color: #9cf; padding: 10%;}
-#section-red   { background: linear-gradient(cyan, red); padding: 10%;}
+
+#section-green { 
+  background: linear-gradient(to bottom, 
+  orange,
+  red ,
+  purple); 
+  color: #cf9; padding: 10%;
+}
+#section-blue  { 
+  background: linear-gradient(to bottom, 
+  orange  10%, 
+  red     30%, 
+  purple  90%px); 
+  color: #cf9; padding: 10%;
+}
+#section-red   { background: linear-gradient(to bottom, 
+  orange  10px, 
+  red     20px, 
+  purple  30px, 
+  yellow  0); 
+  color: #cf9; padding: 10%;
+}
 
 table{
   color:green
