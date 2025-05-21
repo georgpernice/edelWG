@@ -10,13 +10,13 @@ body {
 }
 
 .section{
-  height: 150%;
+  height: 100%;
   width: 100%;
 }
 
 #section-imgs{
-  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 0%;
-  height: 150%;
+  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 2%;
+  height: 100%;
   width: 100%;
 
 
@@ -44,8 +44,8 @@ body {
   color: #cf9; padding: 10%;
 }
 #section-memes   { 
-  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 0%;
-  height: 150%;
+  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 2%;
+  height: 100%;
   width: 100%;
 }
 p{
