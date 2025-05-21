@@ -11,13 +11,13 @@ body {
 
 
 #section-imgs{
-  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 10%;
+  background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 1%;
 }
 #section-contrib {
   background-color: black;
   color: cyan;
   height: 800px;
-  padding: 10%;
+  padding: 1%;
 }
 
 
@@ -26,21 +26,21 @@ body {
   orange,
   red ,
   purple); 
-  color: #cf9; padding: 10%;
+  color: #cf9; padding: 1%;
 }
 #section-expenses  { 
   background: linear-gradient(to bottom, 
   black,
   blue ,
   black); 
-  color: #cf9; padding: 10%;
+  color: #cf9; padding: 1%;
 }
 #section-memes   { 
   background: linear-gradient(to bottom, 
   black,
   grey ,
   black); 
-  color: #cf9; padding: 10%;
+  color: #cf9; padding: 1%;
 }
 
 table{
