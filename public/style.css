@@ -9,9 +9,14 @@ body {
   padding-top: 50px;
 }
 
+.section{
+  height: 100%;
+  width: 100%;
+}
 
 #section-imgs{
   background: linear-gradient(black, rgb(21, 24, 41)); color: #cf9; padding: 10%;
+
 }
 #section-contrib {
   background-color: black;
@@ -42,9 +47,12 @@ body {
   black); 
   color: #cf9; padding: 10%;
 }
-
+p{
+  font-size: large;
+}
 table{
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: 5%;
